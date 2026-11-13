@@ -1,0 +1,9 @@
+.env
+*.key
+*.pem
+node_modules/
+var/
+sealed/
+*.part
+playwright-report/
+test-results/

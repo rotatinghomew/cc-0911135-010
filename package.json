@@ -1,0 +1,17 @@
+{
+  "name": "joint-export-collector",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22 <23"
+  },
+  "scripts": {
+    "start": "node src/main.mjs",
+    "probe": "node tools/probe.mjs",
+    "build": "node tools/check.mjs",
+    "test": "node --test test/*.test.mjs",
+    "demo": "node tools/demo.mjs",
+    "verify": "node test/verify.mjs"
+  }
+}
