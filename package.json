@@ -9,6 +9,8 @@
   "scripts": {
     "start": "node src/main.mjs",
     "probe": "node tools/probe.mjs",
+    "collect": "node tools/collect.mjs",
+    "scenarios": "node tools/scenarios.mjs",
     "build": "node tools/check.mjs",
     "test": "node --test test/*.test.mjs",
     "demo": "node tools/demo.mjs",
